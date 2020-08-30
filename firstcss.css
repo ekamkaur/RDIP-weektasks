@@ -17,3 +17,6 @@ p.dashed {outline-style: dashed;
         position: static;
         border: 3px solid #73AD21;
       }
+      img {
+        float: right;
+      }
