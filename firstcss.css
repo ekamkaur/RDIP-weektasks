@@ -4,3 +4,4 @@ p {
   margin-right: 150px;
   margin-left: 80px;
 }
+p.dashed {outline-style: dashed;}
