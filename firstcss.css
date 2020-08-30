@@ -4,4 +4,8 @@ p {
   margin-right: 150px;
   margin-left: 80px;
 }
-p.dashed {outline-style: dashed;}
+p.dashed {outline-style: dashed;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;}
