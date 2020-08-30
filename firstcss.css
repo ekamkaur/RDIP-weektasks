@@ -13,3 +13,7 @@ p.dashed {outline-style: dashed;
     a {
         display: block;
       }
+      div.static {
+        position: static;
+        border: 3px solid #73AD21;
+      }
