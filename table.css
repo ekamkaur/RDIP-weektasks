@@ -28,4 +28,10 @@ table, th, td {
     margin: auto;
     padding: 15px 10px;
   }
+  .align
+  {
+    text-align: center;
+    font-weight: bold;
+    
+  }
   tr:nth-child(even) {background-color: yellowgreen;}
