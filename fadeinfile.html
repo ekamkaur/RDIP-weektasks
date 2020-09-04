@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").fadeOut();
+  });
+  $(".btn2").click(function(){
+    $("p").fadeIn();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>jQuery is a JavaScript Library. jQuery greatly simplifies JavaScript programming. jQuery is easy to learn.</p>
+
+<button class="btn1">Fade out</button>
+<button class="btn2">Fade in</button>
+
+</body>
+</html>
