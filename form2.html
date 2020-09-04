@@ -8,29 +8,21 @@
 </head>
 <body>
     <h3>Fill the below form:    </h3>
-        <form>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br><br>
         <label for="phoneno">Phone Number:</label><br>
         <input type="number" id="phoneno" name="phoneno"><br><br>
         <label>Choice of Course:</label><br>
-        <input type="radio" id="bachelors" name="choiceofcourse" value="bachelors">
+        <input type="radio" id="bachelors" name="yesno" value="bachelors">
         <label for="bachelors">Bachelors</label><br>
-        <input type="radio" id="masters" name="choiceofcourse" value="masters">
+        <input type="radio" id="masters" name="yesno" value="masters">
         <label for="masters">Masters</label><br><br>
         <label>Description:</label><br>
         <textarea name="message" style="width:200px; height:100px;">
         </textarea><br><br>
-        <label>Subject Interests:</label><br>
-        <input type="checkbox" id="ML" name="Subjectinterests" value="ML">
-        <label for="ML">Machine Learning</label><br>
-        <input type="checkbox" id="CB" name="Subjectinterests" value="CN">
-        <label>Computer Networks</label><br>
-        <input type="checkbox" id="GT" name="Subjectinterests" value="GT">
-        <label for="GT">Graph Theory</label><br>
-        <input type="checkbox" id="EH" name="Subjectinterests" value="EH">
-        <label for="EH">Ethical Hacking</label><br><br>
-        <a href="#">Submit</a>
+        <input type="submit" value="Submit">
         </form>
+        <script src="scripts/validate.js"></script>
 </body>
 </html>
