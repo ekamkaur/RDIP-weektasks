@@ -1,0 +1,4 @@
+List of additional functonalitites I feel important:
+
+1. Whenever the button “check the correctness of sentence” is pressed and if the sentence is correct then also the "Get Correct Sentence" button should be invoked and if we click that button all the correct sentences that could be formed should be displayed. 
+2. There should be an additional button called "New sentence", clicking on which another new random jumbled sentence should be displayed on screen.
